@@ -1,0 +1,9 @@
+[[plugins]]# javascript
+repo = 'pangloss/vim-javascript'
+
+[[plugins]]# javascript
+repo = 'othree/yajs.vim'
+
+[[plugins]]# javascript
+repo = 'maxmellon/vim-jsx-pretty'
+

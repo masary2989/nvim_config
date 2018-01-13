@@ -1,0 +1,41 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]] # hybrid
+repo = 'w0ng/vim-hybrid'
+
+[[plugins]] # ステータスライン
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+    let g:lightline = {'colorscheme': 'wombat'}
+'''
+
+[[plugins]] # Toml
+repo  = 'cespare/vim-toml'
+
+[[plugins]] # Japanese doc
+repo = 'vim-jp/vimdoc-ja'
+hook_add = '''
+    set helplang=ja,en
+'''
+
+[[plugins]] # colorschema
+repo = 'tomasr/molokai'
+
+[[plugins]] # indent
+repo = 'nathanaelkane/vim-indent-guides'
+
+[[plugins]] # space
+repo = 'bronson/vim-trailing-whitespace'
+
+[[plugins]]
+repo = 'Shougo/unite.vim'
+
+[[plugins]]
+repo = 'neomake/neomake'
+
+[[plugins]]
+repo = 'benjie/neomake-local-eslint.vim'
+
+[[plugins]]
+repo = 'bbatsov/rubocop'
