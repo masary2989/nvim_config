@@ -4,11 +4,11 @@ repo = 'Shougo/dein.vim'
 [[plugins]] # hybrid
 repo = 'w0ng/vim-hybrid'
 
-[[plugins]] # ステータスライン
-repo = 'itchyny/lightline.vim'
-hook_add = '''
-    let g:lightline = {'colorscheme': 'wombat'}
-'''
+# [[plugins]] # ステータスライン
+# repo = 'itchyny/lightline.vim'
+# hook_add = '''
+#     let g:lightline = {'colorscheme': 'wombat'}
+# '''
 
 [[plugins]] # Toml
 repo  = 'cespare/vim-toml'
@@ -29,7 +29,7 @@ repo = 'nathanaelkane/vim-indent-guides'
 repo = 'bronson/vim-trailing-whitespace'
 
 [[plugins]]
-repo = 'Shougo/unite.vim'
+repo = 'Shougo/denite.nvim'
 
 [[plugins]]
 repo = 'neomake/neomake'
@@ -39,3 +39,12 @@ repo = 'benjie/neomake-local-eslint.vim'
 
 [[plugins]]
 repo = 'bbatsov/rubocop'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
