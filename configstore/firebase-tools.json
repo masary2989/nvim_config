@@ -1,0 +1,37 @@
+{
+	"analytics-uuid": "70da0dd2-10c7-4471-aab6-77658a8cf790",
+	"motd": {
+		"minVersion": "3.0.5"
+	},
+	"motd.fetched": 1519012284123,
+	"usage": true,
+	"user": {
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "103864636027256463483",
+		"email": "fxxkinspam@gmail.com",
+		"email_verified": true,
+		"at_hash": "5fZUo32ij4wbQfybZr9CHw",
+		"exp": 1518168115,
+		"iss": "accounts.google.com",
+		"iat": 1518164515
+	},
+	"tokens": {
+		"expires_at": 1519015883800,
+		"refresh_token": "1/2U3NzcHDyrITNRvP8I2LRTQppAdzcd4r3quj_UK4dyw",
+		"scopes": [
+			"email",
+			"https://www.googleapis.com/auth/cloud-platform",
+			"https://www.googleapis.com/auth/cloudplatformprojects.readonly",
+			"https://www.googleapis.com/auth/firebase",
+			"openid"
+		],
+		"access_token": "ya29.GlxnBb6gH_S4cSf0hNu6y0xV8T-hoYATIOkz3-unmpMdDsh6xy2WTymeeTAZHAK9h6qNCK5NS1rTHbtfxD7bqVqp9CUPu_7sEs4lnR5gzaQ-GOCDugDu2D7nyWWAPg",
+		"token_type": "Bearer",
+		"expires_in": 3600,
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjNlMTg3MTc3Zjk5ODdjMTkxMDg1MTA3ZjY4M2E2ZWEyNzdhZmJjOGQifQ.eyJhenAiOiI1NjM1ODQzMzU4NjktZmdyaGdtZDQ3YnFuZWtpajVpOGI1cHIwM2hvODQ5ZTYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiI1NjM1ODQzMzU4NjktZmdyaGdtZDQ3YnFuZWtpajVpOGI1cHIwM2hvODQ5ZTYuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDM4NjQ2MzYwMjcyNTY0NjM0ODMiLCJlbWFpbCI6ImZ4eGtpbnNwYW1AZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF0X2hhc2giOiJaTGJsMndpbDNTUDFUODJxam84NVFBIiwiZXhwIjoxNTE5MDE1ODgzLCJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiaWF0IjoxNTE5MDEyMjgzfQ.pV05nIefINBfEoVgHpFN7hELsJB_YszPED0rSM3MIiNg7gLAONgazu18J6HdAK8l8RVSM1m-v5blp3WEZ8lDwHI4M3mqskSaRRM5v28mTrWrrFBkEC5V8-TErcB4Vbx-6m-uuWviM6lb72NWjM5W7hrzwghqoiGeWK-ucPcAMAzYBOq-Cbwi6sqRt6og8FPFm8lzCBAm8BAgdiYEkQ8g6R1MkmJC-WQT5L1_oWgZbt2VRJaWBAy7-4hqunFuZhKKOPpcNSR09bInuf2ZbJ-sRsgTxqcIkCABIXUxyGeGTc29jv4-cdXdXfGaUxCg1smrDXsZXmgxGJOIHYa1NMFhMQ"
+	},
+	"activeProjects": {
+		"/Users/ShimamuraMasaru/dev/kajinote/lp_kajinote 2": "kajinote-718f3"
+	}
+}
