@@ -261,3 +261,4 @@ let g:airline#extensions#ale#warning_symbol = 'W:'
 
 " NerdTree
 autocmd vimenter * NERDTree
+autocmd vimenter * set modifiable
