@@ -4,12 +4,6 @@ repo = 'Shougo/dein.vim'
 [[plugins]] # hybrid
 repo = 'w0ng/vim-hybrid'
 
-# [[plugins]] # ステータスライン
-# repo = 'itchyny/lightline.vim'
-# hook_add = '''
-#     let g:lightline = {'colorscheme': 'wombat'}
-# '''
-
 [[plugins]] # Toml
 repo  = 'cespare/vim-toml'
 
@@ -35,12 +29,6 @@ repo = 'Shougo/denite.nvim'
 repo = 'neomake/neomake'
 
 [[plugins]]
-repo = 'benjie/neomake-local-eslint.vim'
-
-[[plugins]]
-repo = 'bbatsov/rubocop'
-
-[[plugins]]
 repo = 'scrooloose/nerdtree'
 
 [[plugins]]
@@ -50,4 +38,4 @@ repo = 'vim-airline/vim-airline'
 repo = 'airblade/vim-gitgutter'
 
 [[plugins]]
-repo = 'tomlion/vim-solidity'
+repo = 'Shougo/deoplete.nvim'

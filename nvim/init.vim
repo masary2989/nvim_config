@@ -24,6 +24,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_idx_mode = 1
 let g:airline#extensions#whitespace#mixed_indent_algo = 1
 let g:airline_theme = 'papercolor'
+let g:node_host_prog = system('echo -n $(which neovim-node-host)')
 
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
@@ -150,12 +151,8 @@ if dein#load_state(s:dein_dir)
 
     call dein#load_toml(s:toml_dir . '/plugins.toml', {'lazy': 0})
     call dein#load_toml(s:toml_dir . '/lazy.toml', {'lazy': 1})
-    " if has('python3')
-        " call dein#load_toml(s:toml_dir . '/python.toml', {'lazy': 1})
-    " endif
-    " if has('javascript')
-        call dein#load_toml(s:toml_dir . '/javascript.toml', {'lazy': 0})
-    " endif
+    call dein#load_toml(s:toml_dir . '/python.toml', {'lazy': 1})
+    call dein#load_toml(s:toml_dir . '/javascript.toml', {'lazy': 1})
 
     call dein#end()
     call dein#save_state()

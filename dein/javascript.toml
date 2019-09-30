@@ -1,9 +1,24 @@
 [[plugins]]# javascript
 repo = 'pangloss/vim-javascript'
+on_ft = ['javascript', 'javascript.jsx']
 
 [[plugins]]# javascript
 repo = 'othree/yajs.vim'
+on_ft = ['javascript', 'javascript.jsx']
+
+[[plugins]]# javascript
+repo = 'othree/es.next.syntax.vim'
+on_ft = ['javascript', 'javascript.jsx']
+
+[[plugins]]# javascript
+repo = 'othree/javascript-libraries-syntax.vim'
+on_ft = ['javascript', 'javascript.jsx']
 
 [[plugins]]# javascript
 repo = 'maxmellon/vim-jsx-pretty'
+on_ft = ['javascript', 'javascript.jsx']
+
+[[plugins]]# typescript
+repo = 'mhartington/nvim-typescript'
+on_ft = ['typescript', 'typescript.jsx']
 

@@ -7,3 +7,15 @@ on_path = '.*'
 repo = 'Shougo/neoyank.vim'
 on_source = 'denite.nvim'
 on_event = 'TextYankPost'
+
+[[plugins]]
+repo = 'benjie/neomake-local-eslint.vim'
+on_ft = 'javascript'
+
+[[plugins]]
+repo = 'bbatsov/rubocop'
+on_ft = 'ruby'
+
+[[plugins]]
+repo = 'tomlion/vim-solidity'
+on_ft = 'solidity'
