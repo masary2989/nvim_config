@@ -175,6 +175,7 @@ endif
 autocmd! BufWritePost,BufEnter * Neomake
 
 let g:neomake_javascript_enabled_makers = ['eslint']
+let g:jsx_ext_required = 0
 let g:neomake_ruby_enabled_makers = ['rubocop']
 let g:neomake_logfile='/tmp/neomake.log'
 let g:neomake_verbose=3
@@ -262,3 +263,5 @@ let g:airline#extensions#ale#warning_symbol = 'W:'
 " NerdTree
 autocmd vimenter * NERDTree
 autocmd vimenter * set modifiable
+
+" call map(dein#check_clean(), "delete(v:val, 'rf')")
